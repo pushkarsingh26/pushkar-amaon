@@ -187,48 +187,11 @@ span {
 
 /** HERO SECTION **/
 
-.image-container{
-   position: relative;
-}
-
-.image-list{
-   display: flex;
-}
-
-.image-item{
-    min-width: 100%;
-    /* transform: translateX(-200%); */
-    transition-duration: 0.5s;
-}
-
-.image-item img{
-    width: 100%;
+.hero-section{
+    background-image: url("hero_image.jpg");
     height: 420px;
+    background-size: cover;
 }
-
-.image-btn-container{
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.slide-btn{
-    border: 2px solid transparent;
-    padding: 100px 20px;
-    font-size: 20px;
-    font-weight: 300;
-    background-color: transparent;
-    color: black;
-}
-
-.slide-btn:focus{
-    border: 2px solid seagreen;
-    box-shadow: -2px -2px -2px white
-    2px 2px 2px white;
-}
-
 /** Shopping Section **/
 
 .shop-section {
